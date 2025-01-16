@@ -4,6 +4,7 @@ import FormPage1 from "../presentational/FormPage1";
 import FormPage2 from "../presentational/FormPage2";
 import FormPage3 from "../presentational/FormPage3";
 import FormPage4 from "../presentational/FormPage4";
+import FormPageThanks from "../presentational/FormPageThanks";
 
 function FormMultiPage() {
   const [page, setPage] = useState(0);
@@ -18,6 +19,7 @@ function FormMultiPage() {
     <FormPage2 />,
     <FormPage3 />,
     <FormPage4 />,
+    <FormPageThanks />,
   ];
 
   return (

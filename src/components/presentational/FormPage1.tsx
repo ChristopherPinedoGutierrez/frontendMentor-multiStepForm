@@ -1,14 +1,11 @@
+import FormCard from "../layout/FormCard";
+
 function FormPage1() {
   return (
-    <div className="flex flex-col gap-4 rounded-lg border bg-slate-50 p-6">
-      {/* Card header */}
-      <div className="flex flex-col gap-2">
-        <h3 className="bg-inherit text-4xl font-bold">Page 1</h3>
-        <p className="max-w-64 text-slate-400">
-          Please provide your name, email address and phone number.
-        </p>
-      </div>
-      {/* Card content */}
+    <FormCard
+      cardTitle="1 Personal info"
+      cardText="Please provide your name, email address and phone number."
+    >
       <div className="flex flex-col gap-2">
         <div className="flex flex-col gap-1">
           <label htmlFor="nameIpt">Name</label>
@@ -38,7 +35,7 @@ function FormPage1() {
           />
         </div>
       </div>
-    </div>
+    </FormCard>
   );
 }
 
