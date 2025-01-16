@@ -65,10 +65,16 @@ function FormMultiPage() {
         </div>
       </div>
       {/* Bottom Actions */}
-      <div className="flex w-full justify-end bg-slate-50 p-4">
+      <div className="flex w-full justify-between bg-slate-50 p-4 font-semibold">
+        <button
+          onClick={prevPage}
+          className="rounded px-4 py-2 text-slate-500 hover:bg-slate-200"
+        >
+          Go Back
+        </button>
         <button
           onClick={nextPage}
-          className="rounded bg-blue-950 px-4 py-2 text-white"
+          className="rounded bg-blue-950 px-4 py-2 text-white hover:bg-blue-900"
         >
           Next Step
         </button>

@@ -3,8 +3,8 @@ import FormCard from "../layout/FormCard";
 function FormPage4() {
   return (
     <FormCard
-      cardTitle="4 Personal info"
-      cardText="Please provide your name, email address and phone number."
+      cardTitle="Finishing up"
+      cardText="Double-check everything looks OK before confirming."
     >
       <div className="flex flex-col gap-2">
         <div className="flex flex-col gap-1">

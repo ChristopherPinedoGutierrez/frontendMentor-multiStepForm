@@ -3,8 +3,8 @@ import FormCard from "../layout/FormCard";
 function FormPage3() {
   return (
     <FormCard
-      cardTitle="3 Personal info"
-      cardText="Please provide your name, email address and phone number."
+      cardTitle="Pick add-ons"
+      cardText="Add-ons help enhance your gaming experience."
     >
       <div className="flex flex-col gap-2">
         <div className="flex flex-col gap-1">

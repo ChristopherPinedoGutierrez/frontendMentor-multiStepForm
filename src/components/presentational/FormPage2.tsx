@@ -3,8 +3,8 @@ import FormCard from "../layout/FormCard";
 function FormPage2() {
   return (
     <FormCard
-      cardTitle="2 Personal info"
-      cardText="Please provide your name, email address and phone number."
+      cardTitle="Select your plan"
+      cardText="You have the option of monthly or yearly billing."
     >
       <div className="flex flex-col gap-2">
         <div className="flex flex-col gap-1">
